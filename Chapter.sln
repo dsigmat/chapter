@@ -27,9 +27,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Convert binary object to st
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parsing strings to convert to numbers", "Parsing strings to convert to numbers\Parsing strings to convert to numbers.csproj", "{9290F344-5145-49CB-8C67-2BBEE78C356B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandlingExceptions", "HandlingExceptions\HandlingExceptions.csproj", "{18AEF45E-C0B2-4509-A233-D473E595A36A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandlingExceptions", "HandlingExceptions\HandlingExceptions.csproj", "{18AEF45E-C0B2-4509-A233-D473E595A36A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catching Exceptions", "Catching Exceptions\Catching Exceptions.csproj", "{B0A0615F-9CA9-4A31-B819-E3E2EBC3D389}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catching Exceptions", "Catching Exceptions\Catching Exceptions.csproj", "{B0A0615F-9CA9-4A31-B819-E3E2EBC3D389}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckingForOverflow", "CheckingForOverflow\CheckingForOverflow.csproj", "{863713DD-0D83-4308-8DA7-6DFBDB4887B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{C861FE76-7C62-4840-8757-E60A47F36D98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,14 @@ Global
 		{B0A0615F-9CA9-4A31-B819-E3E2EBC3D389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0A0615F-9CA9-4A31-B819-E3E2EBC3D389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0A0615F-9CA9-4A31-B819-E3E2EBC3D389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{863713DD-0D83-4308-8DA7-6DFBDB4887B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{863713DD-0D83-4308-8DA7-6DFBDB4887B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{863713DD-0D83-4308-8DA7-6DFBDB4887B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{863713DD-0D83-4308-8DA7-6DFBDB4887B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C861FE76-7C62-4840-8757-E60A47F36D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C861FE76-7C62-4840-8757-E60A47F36D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C861FE76-7C62-4840-8757-E60A47F36D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C861FE76-7C62-4840-8757-E60A47F36D98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
